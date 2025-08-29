@@ -1,8 +1,11 @@
 programa
+// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o] 
+// Professor   : Antonio Carlos Nicolodi 
 {
 	
 	funcao inicio()
-	{//in√≠cio
+	{
+//in√≠cio
 		real numero1
 		real numero2
 		real numero3
@@ -27,7 +30,8 @@ programa
 		
 
 		
-	}//fim
+	}
+//fim
 }
 /* $$$ Portugol Studio $$$ 
  * 
