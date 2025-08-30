@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		real a, b, soma, sub, mult, div
+		real a, b, soma, sub, mult, divisao
 		escreva("Digite um número:")
 		leia(a)
 		escreva("Digite um número:")
@@ -12,12 +12,12 @@ programa
 		soma = a + b
 		sub = a - b
 		mult = a * b
-		div = a / b
+		divisao = a / b
 
 		escreva("\nA soma de ", a, " + ", b, " = ", soma)
 		escreva("\nA subtração de ", a, " - ", b, " = ", sub)
 		escreva("\nA multiplicação de ", a, " * ", b, " = ", mult)
-		escreva("\nA divisão de ", a, " / ", b, " = ", div)
+		escreva("\nA divisão de ", a, " / ", b, " = ", divisao)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 436; 
+ * @POSICAO-CURSOR = 442; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
