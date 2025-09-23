@@ -5,7 +5,7 @@ programa
 	família, ao digitar salário igual a zero reais, o programa deve encerrar e mostrar a
 	soma de toda a renda familiar.*/
 	inteiro  i = 1
-	real salario, soma = 0.0 
+	real salario, soma = 0.0 
 	
 	funcao inicio()
 	{
@@ -18,6 +18,9 @@ programa
 			
 		
 		}enquanto(salario != 0)
+
+		limpa()
+		
 		escreva("\nA soma de todos os salários é:R$ ", soma)
 	}
 	
@@ -27,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 338; 
+ * @POSICAO-CURSOR = 431; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
