@@ -15,7 +15,9 @@ programa
 	funcao inicio()
 	{
 		inteiro opcao
-		real numero = 0.0, numero1 , resultado, numero2 
+		logico finaliza = verdadeiro
+		real numero = 0.0, numero1 , resultado, numero2
+
 	
 		faca{
 		escreva("\n*=*=*=*=*=*Calculadora*=*=*=*=*=*=*=*\n")
@@ -38,7 +40,8 @@ programa
 			  		leia(numero2)
 			  		resultado = numero1 + numero2
 			  		escreva("\nResultado da Soma de, ",numero1," + ", numero2, " = ", resultado,"\n")
-			  			Util.aguarde(1000)
+			  			Util.aguarde(5000)
+			  			limpa()
 			  		pare
 				caso 2:
 				
@@ -49,7 +52,8 @@ programa
 			  		leia(numero2)
 			  		resultado = numero1 - numero2
 			  		escreva("\nResultado da Subtração de, ",numero1," + ", numero2, " = ", resultado,"\n")
-			  			Util.aguarde(1000)
+			  			Util.aguarde(5000)
+			  			limpa()
 				 	
 					 pare
 					 
@@ -62,8 +66,8 @@ programa
 			  		leia(numero2)
 			  		resultado = numero1 * numero2
 			  		escreva("\nResultado da Multiplicação de, ",numero1," x ", numero2, " = ", resultado,"\n")
-			  			Util.aguarde(1000)
- 					
+			  			Util.aguarde(5000)
+ 						limpa()
  					pare
  					
 				caso 4:
@@ -78,15 +82,25 @@ programa
 
    					   se(numero2 == 0){ 
        					  escreva("\nErro! Divisão por zero não permitida.\n")
-       					  Util.aguarde(1000)
+       					  Util.aguarde(5000)
+       					  limpa()
    					   }senao{
        					  resultado = numero1 / numero2
         					  escreva("\nResultado da Divisão de ", numero1, " / ", numero2, " = ", resultado, "\n")
-        				   	   Util.aguarde(1000)
+        				   	   Util.aguarde(5000)
+        				   	   limpa()
         				   }
+        			  caso 5:
+
+        			  	 finaliza = falso
+        			  	 pare
+        			  caso contrario:
+        			  		escreva("Informe uma opção valida!")
+        					Util.aguarde(5000)
+        					limpa()
         					  
 			}
-		}enquanto(opcao != 5)
+		}enquanto(finaliza != falso)
 		escreva("\n      Fim do programa!!!\n")
 
 	}
@@ -97,7 +111,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2544; 
+ * @POSICAO-CURSOR = 1271; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
