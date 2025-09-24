@@ -22,8 +22,8 @@ programa
 		faca{
 		escreva("\n*=*=*=*=*=*Calculadora*=*=*=*=*=*=*=*\n")
 		escreva("Ecolha uma da opções abaixo:\n")
-		escreva(" \n 1. Adição        \t2. Subtração")
-		escreva(" \n 3. Multiplicação \t4. Divisão")
+		escreva(" \n 1. Adição       \t2. Subtração")
+		escreva(" \n 3. Multiplicação\t4. Divisão")
 		escreva(" \n 5. Sair")
 		escreva("\n*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*")
 		escreva(" \nOpção desejada: ")
@@ -111,7 +111,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1271; 
+ * @POSICAO-CURSOR = 690; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
